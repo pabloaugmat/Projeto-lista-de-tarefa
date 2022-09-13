@@ -39,6 +39,7 @@ botaoSoma.addEventListener('click', function () {
         }
     )
     console.log(resultado);
+    alert(`RESULTADO: ${input1.value} + ${input2.value} = ${resultado}`)
 })
 
 botaoSubtrair.addEventListener('click', function () {
@@ -50,6 +51,7 @@ botaoSubtrair.addEventListener('click', function () {
         }
     )
     console.log(resultado)
+    alert(`RESULTADO: ${input1.value} - ${input2.value} = ${resultado}`)
 })
 
 botaoDividir.addEventListener('click', function () {
@@ -61,6 +63,7 @@ botaoDividir.addEventListener('click', function () {
         }
     )
     console.log(resultado)
+    alert(`RESULTADO: ${input1.value} / ${input2.value} = ${resultado}`)
 })
 
 botaoMultiplicar.addEventListener('click', function () {
@@ -72,4 +75,5 @@ botaoMultiplicar.addEventListener('click', function () {
         }
     )
     console.log(resultado)
+    alert(`RESULTADO: ${input1.value} * ${input2.value} = ${resultado}`)
 })
